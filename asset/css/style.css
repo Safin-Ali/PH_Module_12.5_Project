@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+body{
+    background: #F5F5F5;
+}
+
+.fontPoppins{
+    font-family: 'Poppins',sans-serif;
+}
+
+.font-Roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-Inter{
+    font-family: 'Inter', sans-serif;
+}
+
+.font-Manrope{
+    font-family: 'Manrope', sans-serif;
+}
+
+:root{
+    --black01: #3e3e3e;
+    --black02: #242424;
+    --black03: #6c6c6c;
+    --black04: #747474;
+    --black05: #383838;
+    --blue01: #3F87F5;
+    --blue02: #166df0;
+    --blue03: #0051ca;
+    --pink01: #fcd8ec;
+    --pink02: #eb68bb;
+    --purple-thin: #848199;
+    --purple-light: #5243C2;
+    --navy-blue: #0A0826;
+    --navy-blue02: #0B0D17;
+    --white02: #D9DBE1;
+}
+.navbar-brand{
+    font-size: 1.375rem;
+}
+.navbar-nav .nav-link {
+    color: var(--black01);
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+.navbar-nav .nav-link:hover{
+    color: var(--black02);
+}
+
+.carousel-caption .slider-text{
+    padding: 0 8em;
+}
+.carousel-caption .slider-text h1{
+    font-size: 3rem;
+}
+header .carousel-indicators [data-bs-target]{
+    width: 50px;
+}
+
+
+
+.section-2nd-text h1{
+    font-size: 2.375rem;
+    color: var(--navy-blue);
+}
+.section-2nd-text p{
+    color: var(--black03);
+}
+.section-2nd-text a{
+    background-color: var(--blue01);
+    transition: background .2s ease-in-out;
+}
+.section-2nd-text a:hover{
+    background-color: var(--blue02);
+}
+
+
+.pakage-header{
+    color: var(--navy-blue);
+    font-size: 2.375rem;
+    margin: 10rem auto 5rem;
+}
+.packages-content h1,h2{
+    color: var(--navy-blue);
+}
+.packages-content h1{
+    font-size: 2.25rem;
+}
+.packages-content h2{
+    font-size: 1.75rem;
+}
+.packages-content p,span{
+    color: var(--purple-thin);
+    font-size: .9375rem;
+}
+.packages-content a{
+    color: var(--blue01);
+    background: var(--pink01);
+    transition: color .2s ease-in-out ,background .2s ease-in-out
+}
+.packages-content a:hover{
+    color: var(--blue03);
+    background: var(--pink02);
+}
+
+.packages-content i.fa-duotone:after{
+    color: var(--purple-light) !important;
+    opacity: 0.2 !important;
+}
+
+.packages-content i.fa-duotone:before{
+    color: var(--purple-light);
+}
+
+.hot-packgae{
+    background: var(--blue01);
+    transform: translateY(-60px);
+    padding: 30px 20px;
+}
+.hot-packgae.shadow-lg{
+        box-shadow: 0 1rem 3rem #3F87F570!important;
+}
+.packages-content .hot-packgae h1,.hot-packgae h2,.hot-packgae p,.hot-packgae span{
+    color: #F5F5F5;
+}
+.packages-content .hot-packgae a{
+    background: #F5F5F5;
+}
+.packages-content .hot-packgae i.fa-duotone:after{
+    color: #F5F5F5 !important;
+    opacity: 0.2 !important;
+}
+.packages-content .hot-packgae i.fa-duotone:before{
+    color: #F5F5F5;
+}
+.hot-packgae>span {
+    position: absolute;
+    left: 85%;
+    top: 0;
+}
+
+
+
+
+.client-header{
+    margin-bottom: 6.25rem;
+}
+.client-header h1,.questions-header h1{
+    color: var(--navy-blue);
+    font-size: 2.375rem;
+}
+
+.client-box{
+    box-shadow: 0 1rem 40px -10px #24242440;
+}
+.client-box p:nth-child(1){
+    color: var(--black03);
+    font-size: 1rem;
+}
+.client-box p{
+    font-size: .875rem;
+    color: var(--black04);
+}
+
+
+
+.questions-header{
+    margin: 6.25rem auto;
+}
+.questions-content button{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--black05);
+}
+
+.questions-content .accordion-body p{
+    color: #7E848C;
+}
+
+
+
+footer{
+    background: var(--navy-blue02);
+}
+
+footer p{
+    font-size: .875rem;
+    color: var(--white02);
+}
+
+footer h5{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--white02);
+}
+
+footer>div{
+    padding: 2.5rem 2rem;
+}
